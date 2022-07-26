@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios 5 e 6</title>
+    <style>
+        body {
+            background-color:darkseagreen ;
+            font-family: fantasy;
+        }
+        div#cod {
+            background-color: darkcyan;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            width: 190px;
+            height: 190px;
+            line-height: 190px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CÓDIGO PROMOCIONAL</h1>
+    <div id="cod">
+    Aproxime aqui
+    </div>
+<script>
+    var quadrado = window.document.getElementById ('cod')
+    quadrado.addEventListener ('mouseenter', entrar)
+    quadrado.addEventListener ('mouseover', voltar)
+    
+
+    function clicar () {
+        quadrado.innerText = 'Aproxime aqui'
+        quadrado.style.background = 'green'
+    }
+    function entrar() {
+        quadrado.innerText = 'cdl49lf'
+        quadrado.style.background = 'orange'
+    }
+    function voltar () {
+        quadrado.innerText = 'Aproxime aqui'
+        quadrado.style.background = 'green'
+    }
+</script>
+</body>
+</html>

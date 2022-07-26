@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="p-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aprendendo o DOM</h1>
+
+    <p>resultado</p>
+    <p>Estou aprendendo o <strong>DOM</strong> em JS</p>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = window.getElementsByTagName('p')[1]
+        <div class='msg'>Clique aqui</div>
+        window.document.write("Está escrito assim >>" + p1.innerText) // Selecionando a marca 
+        document.write(p1.innerHTML/*mostrar a formatação limpa*/)
+         var d = window.document.querySelector('div.msg')
+         d.style.background = 'blue'
+
+         window.document.write('window.document.URL')
+    </script>
+    
+</body>
+</html>

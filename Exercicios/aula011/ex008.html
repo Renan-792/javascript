@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nação de nascença</title>
+</head>
+<body>
+    <h1>Descobrindo a sua Nação</h1>
+    Nome do Pais: <input type="text" name="nacao" id="nacao">
+    <input type="button" value="Confimar" onclick="nacao()">
+    <div id="res"> </div>
+
+    <script>
+     function nacao() {
+        var ver = window.document.querySelector('input#nacao')
+        var res = document.querySelector('div#res')
+        var pais ='Brasil'
+         String(ver.value)
+         if (pais =="Brasil" ){
+            res.innerHTML == `<p> O seu pais é ${pais} </p>`
+         } 
+         else {
+            res.innerHTML =!
+         }
+        
+    }
+
+    </script>
+
+
+
+    <script>
+    </script>
+</body>
+</html>
