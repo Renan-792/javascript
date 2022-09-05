@@ -1,0 +1,30 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aquamarine;
+
+}
+header {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+section {
+    text-align: center;
+    background-color:rgb(240, 255, 241);
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 40%;    
+}
+input {
+    margin: 5px;
+    padding: 1px;
+    padding-left: 9px;
+    border-radius: 8px;
+}
+#botao{
+    padding: 5px 5px 5px 5px ;
+    font-size: 16px;
+    border-radius: 15px;
+}

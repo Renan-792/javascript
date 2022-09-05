@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Square+Peg&display=swap');
+
+body {
+    background-color: #ffbe0b;
+    font-size: 15pt;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px black;
+
+}
+
+header {
+    text-align: center;
+    color: black;
+}
+
+section {
+   background: white;
+   color: black;
+   width: 500px ;
+   height: 300px;
+   border-radius: 10px;
+   padding: 15px;
+   margin: auto;
+    
+}
+footer {
+    text-align: center;
+
+}
+div {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Square Peg', cursive;
+    font-size: 18pt;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+      
+}

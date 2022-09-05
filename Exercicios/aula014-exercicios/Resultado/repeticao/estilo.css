@@ -1,0 +1,23 @@
+
+body{
+    background-color: darkslategray;
+    font-family:Verdana;
+    color: aliceblue;
+}
+section {
+    background-color: rgb(251, 251, 251);
+    color: darkblue;
+    font: Arial, Helvetica, sans-serif;
+    margin:auto;
+    padding: 20px;
+    width: 300px;
+}
+input{
+    padding: 3px;
+    border-radius: 7px;
+}
+footer {
+    font-family:Tahoma ;
+    font-size: smaller;
+    text-align: center;
+}

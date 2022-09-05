@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Manrope&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+    font-size: 100%;
+    color: azure;
+   font-family: 'Manrope', sans-serif;
+   background: linear-gradient(80.15deg, #72499b 16.62%,#22295a 85.61%);
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row ;
+   align-items: center; 
+   justify-content: space-around;
+   padding: 10px;
+   margin: 10px;    
+}
+h1.conteudo-principal-titulo{
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+.logomarca {
+    width: 100px;
+    height: 100px;
+}
+
+
+.menu {
+    color: beige;
+    display: flex;
+    gap: 22px;
+    margin: 10px;
+    padding: 10px;
+}
+.cabecalho-menu-item {
+    color:aliceblue ;
+    font-weight: 400;
+    font-size: larger;
+
+}
+.conteudo {
+    margin-bottom: 49px;
+   border-top: 1px solid #BBE5ED; 
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-principal-titulo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px ;
+
+}
+.conteudo-subtitulo {
+    margin: 8px;
+}
+.botao {
+    color: azure;
+    font-size: 22px;
+    background: linear-gradient(80.15deg, #2c9bb7 16.62%,#7583e8 85.61%);
+    width: 150px;
+    height: 50px;
+    border:none;
+    border-radius: 23px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.349) ;
+    margin: 20px ;
+    padding: 10px;
+}
+.imagem-principal {
+    margin-top: 40px;
+    height: 200px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.titulo-secundario {
+    margin-top: 20vh;
+    border-top: 0.4px solid #BBE5ED;
+    padding: 30px;
+}
+.conteudo-secundario-paragrafo {
+    font-family: 'Manrope', sans-serif;
+    font-weight:300 ;
+    font-size: 18px;
+}
+.rodape {
+    padding: 32px;
+    font-size: smaller;
+    text-align: center;
+    display: block;
+}

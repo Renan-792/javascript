@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(164, 2, 80);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: aliceblue;
+}
+section {
+    background-color: rgb(251, 251, 251);
+    color: black;
+    font: verdana;
+    margin:auto;
+    padding: 20px;
+    width: 400px;
+}
+select {
+    padding-right: 10px ;
+}
+input{
+    padding: 3px;
+    border-radius: 7px;
+}
+input#botao{
+    font-size: medium;
+    margin-top:5px;
+    padding: 5px;
+
+}
+footer {
+    font-family:Tahoma ;
+    font-size: smaller;
+    text-align: center;
+}   
